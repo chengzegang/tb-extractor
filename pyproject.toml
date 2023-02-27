@@ -29,7 +29,8 @@ dependencies = [
   'tqdm',
 ]
 dynamic = ["version"]
-
+[project.scripts]
+tbex = "tb_extractor.__main__:main"
 [project.urls]
 Documentation = "https://github.com/chengzegang/tb-extractor#readme"
 Issues = "https://github.com/chengzegang/tb-extractor/issues"

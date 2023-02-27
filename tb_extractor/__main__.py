@@ -1,3 +1,9 @@
 from . import extractor
 
-extractor.extract()
+
+def main():
+    extractor.extract()
+
+
+if __name__ == "__main__":
+    main()
